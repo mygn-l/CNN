@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import url from "url";
 
-import { TENSOR, QUICK_MATRIX, QUICK_VECTOR } from "../math/linear-min.js";
+import { TENSOR, QUICK_MATRIX, QUICK_VECTOR } from "./linear-min.js";
 
 const Convolution_Layer = class {
   constructor(stack, height, width, kernels, activation_function, activation_derivative) {
