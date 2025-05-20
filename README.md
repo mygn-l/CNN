@@ -1,6 +1,6 @@
-# Feedforward-network
+# Conv. neural network
 
-A basic NodeJS feedforward neural network.
+A basic NodeJS feedforward neural network, extended with convolution layers.
 
 ## Details
 
